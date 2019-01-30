@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B852DA3DABC13FCC3DA763 /* Pods_AuthWithAspNetCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4998A862612892DC4742C0C /* Pods_AuthWithAspNetCore.framework */; };
+		3795744222012E99005F6447 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795744122012E99005F6447 /* LoginViewController.swift */; };
+		37957445220133B6005F6447 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37957444220133B6005F6447 /* ViewControllerExtensions.swift */; };
+		37957447220137B8005F6447 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37957446220137B8005F6447 /* HomeViewController.swift */; };
+		379CFCAD2200F50300C783FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CFCAC2200F50300C783FA /* AppDelegate.swift */; };
+		379CFCB22200F50300C783FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CFCB02200F50300C783FA /* Main.storyboard */; };
+		379CFCB42200F50300C783FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379CFCB32200F50300C783FA /* Assets.xcassets */; };
+		379CFCB72200F50300C783FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CFCB52200F50300C783FA /* LaunchScreen.storyboard */; };
+		379CFCC22200F50300C783FA /* AuthWithAspNetCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CFCC12200F50300C783FA /* AuthWithAspNetCoreTests.swift */; };
+		379CFCCD2200F50300C783FA /* AuthWithAspNetCoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CFCCC2200F50300C783FA /* AuthWithAspNetCoreUITests.swift */; };
+		379CFCDB2200F60200C783FA /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CFCDA2200F60200C783FA /* AuthenticationService.swift */; };
+		379CFCE12200F79D00C783FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CFCE02200F79D00C783FA /* Constants.swift */; };
+		829B68F5EF103D26D63FE999 /* Pods_AuthWithAspNetCoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6706E79687D56D8E469200E5 /* Pods_AuthWithAspNetCoreUITests.framework */; };
+		C8F20539857402124520DBB1 /* Pods_AuthWithAspNetCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D74D4A2D5521667D72BB02B /* Pods_AuthWithAspNetCoreTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		379CFCBE2200F50300C783FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379CFCA12200F50300C783FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379CFCA82200F50300C783FA;
+			remoteInfo = AuthWithAspNetCore;
+		};
+		379CFCC92200F50300C783FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379CFCA12200F50300C783FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379CFCA82200F50300C783FA;
+			remoteInfo = AuthWithAspNetCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023B4B760F6CE95918F22085 /* Pods-AuthWithAspNetCoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWithAspNetCoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthWithAspNetCoreUITests/Pods-AuthWithAspNetCoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3234E25E9D410588735C99A7 /* Pods-AuthWithAspNetCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWithAspNetCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthWithAspNetCore/Pods-AuthWithAspNetCore.debug.xcconfig"; sourceTree = "<group>"; };
+		3795744122012E99005F6447 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		37957444220133B6005F6447 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		37957446220137B8005F6447 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		379CFCA92200F50300C783FA /* AuthWithAspNetCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthWithAspNetCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		379CFCAC2200F50300C783FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		379CFCB12200F50300C783FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		379CFCB32200F50300C783FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		379CFCB62200F50300C783FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		379CFCB82200F50300C783FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379CFCBD2200F50300C783FA /* AuthWithAspNetCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthWithAspNetCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		379CFCC12200F50300C783FA /* AuthWithAspNetCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWithAspNetCoreTests.swift; sourceTree = "<group>"; };
+		379CFCC32200F50300C783FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379CFCC82200F50300C783FA /* AuthWithAspNetCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthWithAspNetCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		379CFCCC2200F50300C783FA /* AuthWithAspNetCoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWithAspNetCoreUITests.swift; sourceTree = "<group>"; };
+		379CFCCE2200F50400C783FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379CFCDA2200F60200C783FA /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		379CFCE02200F79D00C783FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		43DA8970887C41F73907AA02 /* Pods-AuthWithAspNetCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWithAspNetCoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthWithAspNetCoreTests/Pods-AuthWithAspNetCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		6706E79687D56D8E469200E5 /* Pods_AuthWithAspNetCoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthWithAspNetCoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B632E2014EDF0A3AB528D27 /* Pods-AuthWithAspNetCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWithAspNetCoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthWithAspNetCoreTests/Pods-AuthWithAspNetCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7399B9E481E86D67E4E3DDC1 /* Pods-AuthWithAspNetCoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWithAspNetCoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthWithAspNetCoreUITests/Pods-AuthWithAspNetCoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85F8DB35EFFDC8E73C6E1331 /* Pods-AuthWithAspNetCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWithAspNetCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthWithAspNetCore/Pods-AuthWithAspNetCore.release.xcconfig"; sourceTree = "<group>"; };
+		9D74D4A2D5521667D72BB02B /* Pods_AuthWithAspNetCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthWithAspNetCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4998A862612892DC4742C0C /* Pods_AuthWithAspNetCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthWithAspNetCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379CFCA62200F50300C783FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B852DA3DABC13FCC3DA763 /* Pods_AuthWithAspNetCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CFCBA2200F50300C783FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F20539857402124520DBB1 /* Pods_AuthWithAspNetCoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CFCC52200F50300C783FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829B68F5EF103D26D63FE999 /* Pods_AuthWithAspNetCoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CD53F2494AFAAC279BBF2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3234E25E9D410588735C99A7 /* Pods-AuthWithAspNetCore.debug.xcconfig */,
+				85F8DB35EFFDC8E73C6E1331 /* Pods-AuthWithAspNetCore.release.xcconfig */,
+				6B632E2014EDF0A3AB528D27 /* Pods-AuthWithAspNetCoreTests.debug.xcconfig */,
+				43DA8970887C41F73907AA02 /* Pods-AuthWithAspNetCoreTests.release.xcconfig */,
+				023B4B760F6CE95918F22085 /* Pods-AuthWithAspNetCoreUITests.debug.xcconfig */,
+				7399B9E481E86D67E4E3DDC1 /* Pods-AuthWithAspNetCoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		149181D0C2C0181CBB2CBE2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4998A862612892DC4742C0C /* Pods_AuthWithAspNetCore.framework */,
+				9D74D4A2D5521667D72BB02B /* Pods_AuthWithAspNetCoreTests.framework */,
+				6706E79687D56D8E469200E5 /* Pods_AuthWithAspNetCoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3795744322013392005F6447 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37957444220133B6005F6447 /* ViewControllerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		379CFCA02200F50300C783FA = {
+			isa = PBXGroup;
+			children = (
+				379CFCAB2200F50300C783FA /* AuthWithAspNetCore */,
+				379CFCC02200F50300C783FA /* AuthWithAspNetCoreTests */,
+				379CFCCB2200F50300C783FA /* AuthWithAspNetCoreUITests */,
+				379CFCAA2200F50300C783FA /* Products */,
+				05CD53F2494AFAAC279BBF2F /* Pods */,
+				149181D0C2C0181CBB2CBE2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		379CFCAA2200F50300C783FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379CFCA92200F50300C783FA /* AuthWithAspNetCore.app */,
+				379CFCBD2200F50300C783FA /* AuthWithAspNetCoreTests.xctest */,
+				379CFCC82200F50300C783FA /* AuthWithAspNetCoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379CFCAB2200F50300C783FA /* AuthWithAspNetCore */ = {
+			isa = PBXGroup;
+			children = (
+				3795744322013392005F6447 /* Extensions */,
+				379CFCDF2200F74D00C783FA /* Utils */,
+				379CFCAC2200F50300C783FA /* AppDelegate.swift */,
+				379CFCDC2200F60900C783FA /* Services */,
+				379CFCDE2200F61E00C783FA /* ViewControllers */,
+				379CFCDD2200F61500C783FA /* Storyboards */,
+				379CFCB32200F50300C783FA /* Assets.xcassets */,
+				379CFCB82200F50300C783FA /* Info.plist */,
+			);
+			path = AuthWithAspNetCore;
+			sourceTree = "<group>";
+		};
+		379CFCC02200F50300C783FA /* AuthWithAspNetCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				379CFCC12200F50300C783FA /* AuthWithAspNetCoreTests.swift */,
+				379CFCC32200F50300C783FA /* Info.plist */,
+			);
+			path = AuthWithAspNetCoreTests;
+			sourceTree = "<group>";
+		};
+		379CFCCB2200F50300C783FA /* AuthWithAspNetCoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				379CFCCC2200F50300C783FA /* AuthWithAspNetCoreUITests.swift */,
+				379CFCCE2200F50400C783FA /* Info.plist */,
+			);
+			path = AuthWithAspNetCoreUITests;
+			sourceTree = "<group>";
+		};
+		379CFCDC2200F60900C783FA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				379CFCDA2200F60200C783FA /* AuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		379CFCDD2200F61500C783FA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				379CFCB02200F50300C783FA /* Main.storyboard */,
+				379CFCB52200F50300C783FA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		379CFCDE2200F61E00C783FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3795744122012E99005F6447 /* LoginViewController.swift */,
+				37957446220137B8005F6447 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		379CFCDF2200F74D00C783FA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				379CFCE02200F79D00C783FA /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		379CFCA82200F50300C783FA /* AuthWithAspNetCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379CFCD12200F50400C783FA /* Build configuration list for PBXNativeTarget "AuthWithAspNetCore" */;
+			buildPhases = (
+				8764A42B9DCC55B0878812EC /* [CP] Check Pods Manifest.lock */,
+				379CFCA52200F50300C783FA /* Sources */,
+				379CFCA62200F50300C783FA /* Frameworks */,
+				379CFCA72200F50300C783FA /* Resources */,
+				B9555CC628DA3C2C5ECE788D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthWithAspNetCore;
+			productName = AuthWithAspNetCore;
+			productReference = 379CFCA92200F50300C783FA /* AuthWithAspNetCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		379CFCBC2200F50300C783FA /* AuthWithAspNetCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379CFCD42200F50400C783FA /* Build configuration list for PBXNativeTarget "AuthWithAspNetCoreTests" */;
+			buildPhases = (
+				7A89DA241CFC3B64C5208C6B /* [CP] Check Pods Manifest.lock */,
+				379CFCB92200F50300C783FA /* Sources */,
+				379CFCBA2200F50300C783FA /* Frameworks */,
+				379CFCBB2200F50300C783FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379CFCBF2200F50300C783FA /* PBXTargetDependency */,
+			);
+			name = AuthWithAspNetCoreTests;
+			productName = AuthWithAspNetCoreTests;
+			productReference = 379CFCBD2200F50300C783FA /* AuthWithAspNetCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		379CFCC72200F50300C783FA /* AuthWithAspNetCoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379CFCD72200F50400C783FA /* Build configuration list for PBXNativeTarget "AuthWithAspNetCoreUITests" */;
+			buildPhases = (
+				ACB8EB946F971B1A9254453D /* [CP] Check Pods Manifest.lock */,
+				379CFCC42200F50300C783FA /* Sources */,
+				379CFCC52200F50300C783FA /* Frameworks */,
+				379CFCC62200F50300C783FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379CFCCA2200F50300C783FA /* PBXTargetDependency */,
+			);
+			name = AuthWithAspNetCoreUITests;
+			productName = AuthWithAspNetCoreUITests;
+			productReference = 379CFCC82200F50300C783FA /* AuthWithAspNetCoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379CFCA12200F50300C783FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rafael Adolfo";
+				TargetAttributes = {
+					379CFCA82200F50300C783FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					379CFCBC2200F50300C783FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 379CFCA82200F50300C783FA;
+					};
+					379CFCC72200F50300C783FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 379CFCA82200F50300C783FA;
+					};
+				};
+			};
+			buildConfigurationList = 379CFCA42200F50300C783FA /* Build configuration list for PBXProject "AuthWithAspNetCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 379CFCA02200F50300C783FA;
+			productRefGroup = 379CFCAA2200F50300C783FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379CFCA82200F50300C783FA /* AuthWithAspNetCore */,
+				379CFCBC2200F50300C783FA /* AuthWithAspNetCoreTests */,
+				379CFCC72200F50300C783FA /* AuthWithAspNetCoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379CFCA72200F50300C783FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CFCB72200F50300C783FA /* LaunchScreen.storyboard in Resources */,
+				379CFCB42200F50300C783FA /* Assets.xcassets in Resources */,
+				379CFCB22200F50300C783FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CFCBB2200F50300C783FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CFCC62200F50300C783FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A89DA241CFC3B64C5208C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthWithAspNetCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8764A42B9DCC55B0878812EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthWithAspNetCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB8EB946F971B1A9254453D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthWithAspNetCoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9555CC628DA3C2C5ECE788D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AuthWithAspNetCore/Pods-AuthWithAspNetCore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuthWithAspNetCore/Pods-AuthWithAspNetCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		379CFCA52200F50300C783FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CFCDB2200F60200C783FA /* AuthenticationService.swift in Sources */,
+				379CFCAD2200F50300C783FA /* AppDelegate.swift in Sources */,
+				3795744222012E99005F6447 /* LoginViewController.swift in Sources */,
+				37957445220133B6005F6447 /* ViewControllerExtensions.swift in Sources */,
+				379CFCE12200F79D00C783FA /* Constants.swift in Sources */,
+				37957447220137B8005F6447 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CFCB92200F50300C783FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CFCC22200F50300C783FA /* AuthWithAspNetCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CFCC42200F50300C783FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CFCCD2200F50300C783FA /* AuthWithAspNetCoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		379CFCBF2200F50300C783FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379CFCA82200F50300C783FA /* AuthWithAspNetCore */;
+			targetProxy = 379CFCBE2200F50300C783FA /* PBXContainerItemProxy */;
+		};
+		379CFCCA2200F50300C783FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379CFCA82200F50300C783FA /* AuthWithAspNetCore */;
+			targetProxy = 379CFCC92200F50300C783FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		379CFCB02200F50300C783FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379CFCB12200F50300C783FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		379CFCB52200F50300C783FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379CFCB62200F50300C783FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		379CFCCF2200F50400C783FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		379CFCD02200F50400C783FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		379CFCD22200F50400C783FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3234E25E9D410588735C99A7 /* Pods-AuthWithAspNetCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GPVEAAU5A;
+				INFOPLIST_FILE = AuthWithAspNetCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaeladolfo.AuthWithAspNetCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		379CFCD32200F50400C783FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F8DB35EFFDC8E73C6E1331 /* Pods-AuthWithAspNetCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GPVEAAU5A;
+				INFOPLIST_FILE = AuthWithAspNetCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaeladolfo.AuthWithAspNetCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		379CFCD52200F50400C783FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B632E2014EDF0A3AB528D27 /* Pods-AuthWithAspNetCoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GPVEAAU5A;
+				INFOPLIST_FILE = AuthWithAspNetCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaeladolfo.AuthWithAspNetCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthWithAspNetCore.app/AuthWithAspNetCore";
+			};
+			name = Debug;
+		};
+		379CFCD62200F50400C783FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DA8970887C41F73907AA02 /* Pods-AuthWithAspNetCoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GPVEAAU5A;
+				INFOPLIST_FILE = AuthWithAspNetCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaeladolfo.AuthWithAspNetCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthWithAspNetCore.app/AuthWithAspNetCore";
+			};
+			name = Release;
+		};
+		379CFCD82200F50400C783FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023B4B760F6CE95918F22085 /* Pods-AuthWithAspNetCoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GPVEAAU5A;
+				INFOPLIST_FILE = AuthWithAspNetCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaeladolfo.AuthWithAspNetCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuthWithAspNetCore;
+			};
+			name = Debug;
+		};
+		379CFCD92200F50400C783FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7399B9E481E86D67E4E3DDC1 /* Pods-AuthWithAspNetCoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GPVEAAU5A;
+				INFOPLIST_FILE = AuthWithAspNetCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaeladolfo.AuthWithAspNetCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuthWithAspNetCore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		379CFCA42200F50300C783FA /* Build configuration list for PBXProject "AuthWithAspNetCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CFCCF2200F50400C783FA /* Debug */,
+				379CFCD02200F50400C783FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379CFCD12200F50400C783FA /* Build configuration list for PBXNativeTarget "AuthWithAspNetCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CFCD22200F50400C783FA /* Debug */,
+				379CFCD32200F50400C783FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379CFCD42200F50400C783FA /* Build configuration list for PBXNativeTarget "AuthWithAspNetCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CFCD52200F50400C783FA /* Debug */,
+				379CFCD62200F50400C783FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379CFCD72200F50400C783FA /* Build configuration list for PBXNativeTarget "AuthWithAspNetCoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CFCD82200F50400C783FA /* Debug */,
+				379CFCD92200F50400C783FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379CFCA12200F50300C783FA /* Project object */;
+}
