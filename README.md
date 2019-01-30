@@ -1,5 +1,5 @@
 # ios-jwt-authentication-example
-Simple app consuming a aspnet core web api with jwt authentication
+Simple app consuming an aspnet core web api with jwt authentication
 
 #### What are we using here?
 
