@@ -26,6 +26,7 @@ Folders:
 
 Add the following key to info.plist to allow http
 
+```
 <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>
@@ -41,3 +42,4 @@ Add the following key to info.plist to allow http
             </dict>
        </dict>
   </dict>
+```
