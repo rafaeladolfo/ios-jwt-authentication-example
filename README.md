@@ -1,6 +1,8 @@
 # ios-jwt-authentication-example
 Simple app consuming an aspnet core web api with jwt authentication
 
+Works with this project: https://github.com/rfa1989/aspnet-core-jwt-auth
+
 #### What are we using here?
 
 * Swift 4.0
